@@ -1,0 +1,74 @@
+body{
+    padding: 15vw;
+    background-color: black;
+}
+.grid {
+display: flex;
+flex-wrap: wrap;
+background-color: #000000;
+}
+
+.grid-item {
+width: 50%;
+background-position: center;
+background-size: cover;
+/* margin: 1rem; */
+}
+
+
+
+.grid-item-1x1 {
+    height: 0;
+    padding-bottom: 70%;
+    }
+    
+.grid-item-1x2 {
+height: 0;
+padding-bottom: 120%;
+}
+
+
+#one{
+    background-image: url(./images/ein\ heat\ shirt.png);
+}
+
+#two{
+    background-image: url(./images/head-design-max.png);
+}
+
+#three{
+    background-image: url(./images/magenta.png);
+}
+
+#four{
+    background-image: url(./images/pop\ shirt.png);
+}
+#five{
+    background-image: url(./images/peeps.png);
+}
+
+#six{
+    background-image: url(./images/norm\ 1.png);
+}
+
+#seven{
+    background-image: url(./images/magenta-shirt.png);
+}
+
+@media (max-width: 768px) {
+.grid-item {
+width: 100%;
+
+
+}
+.grid-item-1x1 {
+    height: 0;
+    padding-bottom: 100%;
+    
+    }
+    
+    .grid-item-1x2 {
+    height: 0;
+    padding-bottom: 200%;
+    }
+}
